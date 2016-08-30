@@ -132,7 +132,8 @@ a:focus {
   margin: 0 auto;
   background-color: #71be3c;
 }
-.page .heading p { margin: 20px auto 0 }
+.page .heading p { margin: 20px auto 0;}
+.page .heading1 p { margin: 20px auto 0;font-size: 14px;text-align: left; }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 #home {
   padding: 0;
@@ -156,6 +157,12 @@ a:focus {
 #services {
   background-color: #f5f5f5;
   border-bottom: solid 1px #e7e7e7;
+}
+#services .bg0{
+  background-image: url(../img/cover/bg0.png);
+  width: 1170px;
+  height: 205px;
+  display: block;
 }
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
@@ -355,4 +362,6 @@ a:focus {
   .page .content.cover { padding: 80px 0 }
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
+
+
 }
