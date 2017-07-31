@@ -235,6 +235,7 @@ a:focus {
   content: '\f10d';
 }
 #testimonials .client { color: #ccc }
+#testimonials .client a { color: #fff }
 #testimonials .carousel-indicators li {
   width: 9px;
   height: 9px;
