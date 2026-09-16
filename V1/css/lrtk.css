@@ -1,0 +1,69 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style:none;
+
+}
+* {
+	outline: none !important;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* =============================================================================
+   Fix the clear issue
+   ========================================================================== */
+.hide {
+	display: none;
+}
+.clear {
+	clear: both !important;
+	display: block !important;
+	font-size:0 !important;
+	height:0 !important;
+	line-height: 0 !important;
+	width: 100% !important;
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+	
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+} /* Hide from IE Mac \*/
+.clearfix {
+	display: block;
+} /* End hide from IE Mac */
+.clear-fixed {
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
+
+/* leftsead */
+#leftsead{width:161px;height:290px;position:fixed;top:350px;right:0px; z-index:100;}
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#leftsead li{width:161px;height:60px;}
+#leftsead li img{float:right;}
+#leftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:161px;}
+#leftsead li a .shows{display:block;}
+#leftsead li a .hides{margin-right:-143px;cursor:pointer;cursor:hand;}
+#leftsead li a.youhui .hides{display:none;position:absolute;right:143px;}
+#leftsead li a.youhui .2wm{display:none;position:absolute;right:143px;}
+#p2{width:112px;background-color:#5393CE;height:47px;margin-left:47px;border:1px solid #5393CE;text-align:center;line-height:47px;font-size: 16px;font-weight: bold;}
+#p3{width:112px;background-color:#08ADED;height:47px;margin-left:47px;border:1px solid #08ADED;text-align:center;line-height:47px;font-size: 16px;font-weight: bold;}
+#p1{width:47px;height:49px;float:left}
