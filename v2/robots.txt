@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hb-film.com/sitemap.xml
